@@ -1,0 +1,54 @@
+body {
+  background: #91e842;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+.test-form {
+  margin: 100px; }
+  .test-form label {
+    display: block; }
+    .test-form label span {
+      display: inline-block;
+      width: 100px; }
+    .test-form label input {
+      border: none;
+      background: #91e842;
+      position: relative; }
+    .test-form label input:disabled {
+      background: #000;
+      color: greenyellow; }
+
+.edit {
+  background: #91e842;
+  border: none;
+  margin-left: 20px;
+  position: relative; }
+  .edit .fa {
+    font-size: 20px; }
+
+.modal-wrapper {
+  display: none;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.modal {
+  display: none;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: yellow;
+  width: 400px;
+  height: 150px;
+  overflow: visible; }
+  .modal img {
+    width: 100px; }
+  .modal div {
+    position: absolute;
+    top: 85px;
+    left: 105px; }
